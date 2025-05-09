@@ -92,7 +92,7 @@
 
 
    @media (max-width:480px){
-    #intro{
+    .intro{
       height: 90vh;
       border: none;
       

@@ -41,10 +41,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   </div>
           <div className='show'>
             <ul className="desktop-only">
-                <li><a className='item' href="#home" >Home</a></li>
-                <li><a className='item' href="#about" > About</a></li>
-                <li><a  className='item'href="#skill" >Skills</a></li>
-                <li><a className='item' href="#project" >Projects</a></li>
+                <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#home" >Home</a></li>
+                <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#about" > About</a></li>
+                <li><a  className={`item ${darkMode ? 'dark' : 'light'}`} href="#skill" >Skills</a></li>
+                <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#project" >Projects</a></li>
                <li> <button className='contact' onClick={navigate} >Contact me</button></li>
                
 

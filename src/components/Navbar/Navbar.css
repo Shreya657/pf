@@ -44,7 +44,10 @@
     /* color: white; */
     position: relative;
     cursor: pointer;
-    color: white;
+    color: black;
+}
+.item.dark{
+    color:white;
 }
 .item::before{
     content: " ";
@@ -164,6 +167,9 @@
       display: block;
       font-size: 26px;
       cursor: pointer;
+    }
+    .icon{
+        width: 3rem;
     }
   
     .mobile-only {

@@ -1,4 +1,4 @@
-#intro{
+.intro{
     height: 100vh;
     width: 100vw;
     max-width: 80rem;
@@ -7,7 +7,10 @@
     /* background-color: yellow; */
     position: relative;
 
-    border: 2px solid black;
+    border: 3px solid black;
+}
+.intro.dark{
+  border: 3px solid white;
 }
 .picture{
     position: absolute;
@@ -37,6 +40,9 @@
     font-size: 1.7rem;
     font-weight: 100;
    }
+   .hello.dark{
+    color: white;
+   }
    .name{
      color: blue;
    }
@@ -46,6 +52,9 @@
     letter-spacing: 1px;
     width: 50%;
     padding-top: 30px;
+   }
+   .para.dark{
+    color: white;
    }
    .btn{
     background-color: white;
@@ -76,6 +85,9 @@
    }
    .socialIcon:hover{
     filter: grayscale(0);
+   }
+   .im.dark{
+    color: white;
    }
 
 

@@ -19,7 +19,7 @@ const App = () => {
     <>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div id="home">
-        <Home />
+        <Home  darkMode={darkMode} setDarkMode={setDarkMode}/>
       </div>
       <div id="about">
         <About />

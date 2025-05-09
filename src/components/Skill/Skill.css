@@ -27,6 +27,7 @@ border-radius: 5rem;
     justify-content: center;
     align-items: center;
     border-radius: 5rem 5rem 0 0 ;
+    color: white;
 }
 
 .logo{
@@ -48,7 +49,7 @@ border-radius: 5rem;
 .logos div{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
+    grid-template-columns: auto auto auto auto ;
     flex: none;
         animation: scroll 20s linear infinite;
 
@@ -92,6 +93,9 @@ border-radius: 5rem;
     }
   }
 @media(max-width:768px){
+    .skill-contains{
+        height: 80vh;
+    }
     .skill-container{
         height: 80vh;
     }
@@ -104,7 +108,7 @@ border-radius: 5rem;
     }
     .logos{
         
-        width: 65%;
+        width: 80%;
     }
     .logos div img{
         padding-right: 20px;

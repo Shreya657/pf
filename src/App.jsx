@@ -24,7 +24,7 @@ const App = () => {
       <div id="about"  darkMode={darkMode} setDarkMode={setDarkMode}>
         <About />
       </div>
-      <div id="skill">
+      <div id="skill" darkMode={darkMode} setDarkMode={setDarkMode}>
         <Skills />
       </div>
       <div id="contact">

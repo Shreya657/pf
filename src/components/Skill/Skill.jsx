@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skill.css'
 
-const Skill = () => {
+const Skill = ({darkMode}) => {
  
 
   return (

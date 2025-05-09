@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -10,6 +10,11 @@ import Connect from './components/Connect/Connect';
 
 
 const App = () => {
+   const [darkMode, setDarkMode] = useState(false);
+    useEffect(() => {
+    // Apply theme class to the body element
+    document.body.className = darkMode ? 'dark' : 'light';
+  }, [darkMode]);
   return (
     <>
       <Navbar />

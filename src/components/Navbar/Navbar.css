@@ -20,7 +20,7 @@
 }
 .icon{
     background-color: white;
-    width: 10rem;
+    width: 4rem;
     height: auto;
     border-radius: 20%;
 
@@ -110,7 +110,7 @@
     }
     .icon{
         background-color: white;
-        width: 7rem;
+        width: 3rem;
         height: auto;
         border-radius: 20%;
         margin-top: 20px;

@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <div className="items">
         
-        <img  className='icon' src="https://see.fontimg.com/api/rf5/2v7Oe/OWQxMTAzZTlmMjgwNGI0NTg3Mzg4ZGY4ZDBhZWMxNTkudHRm/UG9ydGZvbGlv/love-days.png?r=fs&h=98&w=1500&fg=000000&bg=E7ED20&tb=1&s=65" alt="Bubbles fonts"/>
+        <img  className='icon' src="https://tse3.mm.bing.net/th?id=OIP.a-5MmTIP6FU2C0nVgUlheAHaHa&pid=Api&P=0&h=220" alt="Bubbles fonts"/>
         
         
 

@@ -82,6 +82,7 @@
    @media (max-width:480px){
     #intro{
       height: 90vh;
+      border: none;
       
     }
     .introduction{

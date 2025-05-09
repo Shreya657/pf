@@ -17,7 +17,7 @@ const App = () => {
   }, [darkMode]);
   return (
     <>
-      <Navbar />
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div id="home">
         <Home />
       </div>

@@ -1,0 +1,143 @@
+#intro{
+    height: 100vh;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: yellow;
+    position: relative;
+}
+.picture{
+    position: absolute;
+   top:10px;
+   right: 5rem;
+   background: none;
+   height: 80vh;
+   width: 400px;
+   border-radius: 50%;
+  
+  }
+
+   .introduction{
+    height: 100vh;
+    width: 100vw;
+    padding: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+   }
+   .hello{
+    font-size: 1.7rem;
+    font-weight: 100;
+   }
+   .name{
+     color: blue;
+   }
+   .para{
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 50%;
+    padding-top: 30px;
+   }
+   .btn{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    width: 300px;
+    font-size: 1rem;
+    font-weight: bold;
+   }
+   .btn:hover{
+    background-color: black;
+    color: white;
+
+   }
+   .cls{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding-top: 30px;
+   }
+   .socialIcon{
+    filter: grayscale(100%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   }
+   .socialIcon:hover{
+    filter: grayscale(0);
+   }
+
+
+   @media (max-width:480px){
+    #intro{
+      height: 90vh;
+      
+    }
+    .introduction{
+      padding: 1rem;
+      font-size: 1.5rem;
+      padding-top: 50px;
+      
+    }
+    .hello{
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .name{
+      font-size: 1.5rem;
+    }
+    .im{
+      font-size: 1.5rem;
+    }
+    .para{
+      font-size: 0.9rem;
+      color: black;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    .btn{
+      font-size: 1rem;
+      width: 70%;
+    }
+  
+    .dp{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .picture{
+      height: 150px;
+      width: 150px;
+      position: absolute;
+      top: 2rem;
+      left: 6rem;
+      background-color: blue;
+      border-radius: 50%;
+    
+      
+    }
+    .cls{
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ 
+   }
+   
+
+  
+   
+    
+    
+    

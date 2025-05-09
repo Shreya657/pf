@@ -1,0 +1,121 @@
+.navbar{
+    background-color: black;
+    padding:0 4rem ;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+    overflow-x: hidden;
+    height: 100%;
+    
+}
+.items{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+
+}
+.icon{
+    background-color: white;
+    width: 10rem;
+    height: auto;
+    border-radius: 20%;
+
+}
+.items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+.items li{
+    margin: 0 1.5rem;
+}
+.item{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+.item::before{
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+.item:hover::before{
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+.contact{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    outline: 1.5px solid transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+.contact:hover{
+    background-color: black;
+    outline: 1.5px solid yellow;
+}
+@media (max-width:768px){
+    .navbar{
+        padding: 0 1rem;
+        margin-bottom: 20px;
+        width: 1200px;
+        overflow-x: hidden;
+        max-width: 200%;
+        
+        position: sticky;
+    }
+    .items{
+        
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+    .items ul{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin: 0;
+        padding: 0;
+    }
+    .items li{
+        margin: 0rem;
+    }
+    .contact{
+        width: 100px;
+        height: 48px;
+        font-size: 1rem;
+    }
+    .icon{
+        background-color: white;
+        width: 7rem;
+        height: auto;
+        border-radius: 20%;
+        margin-top: 20px;
+    
+    }
+   
+}
+ 

@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 
 
-const About = () => {
+const About = ({darkMode}) => {
   return (
  
     
@@ -11,8 +11,8 @@ const About = () => {
       <div className="abt">
     
 
-     <div className="img"> <img className='aIcon' src="" alt="" /></div>
-     <div className="aPara">
+     <div className="img"> <img className='aIcon' src="https://tse1.mm.bing.net/th?id=OIP.fCGTbQP_aEOdSGiaAfbE4AHaHa&pid=Api&P=0&h=220" alt="" /></div>
+     <div className={`aPara ${darkMode?'dark':''}`}>
       <p>
         
       

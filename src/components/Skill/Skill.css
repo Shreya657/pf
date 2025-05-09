@@ -48,10 +48,9 @@ border-radius: 5rem;
 .logos div{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto  ;
     flex: none;
         animation: scroll 20s linear infinite;
-
 
 }
 .logos div img{

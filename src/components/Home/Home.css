@@ -103,6 +103,8 @@
       color: black;
       font-weight: bold;
       margin-top: 30px;
+      width: 100%;
+      padding-top: 0px;
     }
     .btn{
       font-size: 1rem;
@@ -131,6 +133,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 0px;
     }
  
    }

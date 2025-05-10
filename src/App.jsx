@@ -11,7 +11,7 @@ import Project from './components/Project/Project';
 
 
 const App = () => {
-   const [darkMode, setDarkMode] = useState(false);
+   const [darkMode, setDarkMode] = useState(true);
     useEffect(() => {
     // Apply theme class to the body element
     document.body.className = darkMode ? 'dark' : 'light';
@@ -29,7 +29,7 @@ const App = () => {
         <Skills darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
       <div id="project">
-        <Project/>
+        <Project darkMode={darkMode} setDarkMode={setDarkMode}/>
       </div>
       <div id="contact" >
         <Contact darkMode={darkMode} setDarkMode={setDarkMode} />

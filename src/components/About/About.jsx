@@ -12,7 +12,7 @@ const About = ({darkMode}) => {
     
 
      <div className="img"> <img className='aIcon' src="https://tse1.mm.bing.net/th?id=OIP.fCGTbQP_aEOdSGiaAfbE4AHaHa&pid=Api&P=0&h=220" alt="" /></div>
-     <div className={`aPara ${darkMode?'dark':''}`}>
+     <div className="aPara">
       <p>
         
       

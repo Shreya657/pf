@@ -60,7 +60,7 @@ const Project = ({darkMode}) => {
       
     ]
   return (
-    <div className={`projects-section ${darkMode ? 'dark' : 'light'}`}>
+    <div className={`projects-section ${darkMode ? 'dark' : ''}`}>
       <h1>My Projects</h1>
       <div className='grid'>
         {projects.map((project,idx)=>(

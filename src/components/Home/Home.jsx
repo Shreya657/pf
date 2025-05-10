@@ -16,8 +16,27 @@ const Home = ({darkMode}) => {
 
         <div className="introduction">
             <span className={`hello ${darkMode ? 'dark' : ''}`}>hello,</span>
-            <span className={`im ${darkMode ? 'dark' : ''}`}>I'm <span className='name'> 
-            Shreya Bera</span> <br />Frontend Developer</span>
+            <span className={`im ${darkMode ? 'dark' : ''}`}>
+                I'm <span className={`name ${darkMode ? 'dark' : 'light'}`}>
+    {
+      "Shreya".split("").map((char, index) => (
+        <span className="letter" style={{ animationDelay: `${index * 0.1}s` }} key={index}>
+          {char}
+        </span>
+      ))
+    }
+     {" "}
+    {
+      "Bera".split("").map((char, index) => (
+        <span className="letter" style={{ animationDelay: `${(index + 6) * 0.1}s` }} key={index + 6}>
+          {char}
+        </span>
+      ))
+    }
+  </span> 
+
+
+<br />Frontend Developer</span>
   
             <p className= {`para ${darkMode ? 'dark' : ''}`}>I’m a passionate Frontend Developer with a creative mindset and strong problem-solving skills. Currently a B.Tech CSE fresher, I build responsive and user-friendly interfaces, while actively working toward becoming a Full-Stack Developer.</p>
          

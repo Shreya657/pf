@@ -38,9 +38,7 @@
     padding-right: 30px;
     
 }
-.aPara.dark{
-    color: white;
-}
+
 .aPara p{
     margin-top: 50px;
 }
@@ -48,6 +46,8 @@
 @media (max-width:768px){
     .about{
         height: 80vh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
     .abt{
         height: 510px;

@@ -7,6 +7,7 @@ import Skills from './components/Skill/Skill';
 import './App.css';
 import Contact from './components/Contact/Contact';
 import Connect from './components/Connect/Connect';
+import Project from './components/Project/Project';
 
 
 const App = () => {
@@ -21,14 +22,17 @@ const App = () => {
       <div id="home">
         <Home  darkMode={darkMode} setDarkMode={setDarkMode}/>
       </div>
-      <div id="about"  darkMode={darkMode} setDarkMode={setDarkMode}>
-        <About />
+      <div id="about" >
+        <About  darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
-      <div id="skill" darkMode={darkMode} setDarkMode={setDarkMode}>
-        <Skills />
+      <div id="skill" >
+        <Skills darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
-      <div id="contact">
-        <Contact />
+      <div id="project">
+        <Project/>
+      </div>
+      <div id="contact" >
+        <Contact darkMode={darkMode} setDarkMode={setDarkMode} />
       </div>
       <Connect></Connect>
     

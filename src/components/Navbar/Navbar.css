@@ -141,6 +141,7 @@
   .mobile-only{
     display: none;
   }
+
   .mobile-menu {
     display: none;
   }
@@ -177,6 +178,9 @@
       flex-direction: column;
       align-items: center;
       gap: 20px;
+    }
+    .mobile-only.dark{
+      color: white;
     }
   
     .mobile-menu {

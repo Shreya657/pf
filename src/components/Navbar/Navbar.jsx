@@ -65,10 +65,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         <div className={`mobile-menu ${darkMode ? 'mobile-dark' : 'mobile-light'}`}>
           <div className="close-btn" onClick={() => setMenuOpen(false)}>✕</div>
           <ul className="mobile-only">
-            <li><a className="item" href="#home" onClick={handleLinkClick}>Home</a></li>
-            <li><a className="item" href="#about" onClick={handleLinkClick}>About</a></li>
-            <li><a className="item" href="#skill" onClick={handleLinkClick}>Skills</a></li>
-            <li><a className="item" href="#project" onClick={handleLinkClick}>Projects</a></li>
+            <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#home" onClick={handleLinkClick}>Home</a></li>
+            <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#about" onClick={handleLinkClick}>About</a></li>
+            <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#skill" onClick={handleLinkClick}>Skills</a></li>
+            <li><a className={`item ${darkMode ? 'dark' : 'light'}`} href="#project" onClick={handleLinkClick}>Projects</a></li>
             <li><button className="contact" onClick={navigate}>Contact me</button></li>
             
           </ul>

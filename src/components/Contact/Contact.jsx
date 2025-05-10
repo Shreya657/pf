@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import './Contact.css'
 
-const Contact = () => {
+const Contact = ({darkMode}) => {
   const[values,setValues]=useState({
 user_name:'',
 user_email:'',
@@ -66,7 +66,7 @@ message:'',
 
   return (
     <div  className='con'>
-     <h1 className="header">Let's Connect</h1>
+     <h1 className={`header ${darkMode? 'dark':''}`}>Let's Connect</h1>
      <form onSubmit={onSubmit} action="" className="contactForm">
     <input type="text " className='yourName'  placeholder='enter your name' name='user_name' onChange={handleChange}  required value={values.user_name}   />
     <input type="email" className='email' placeholder='enter your email' name='user_email' onChange={handleChange}  required value={values.user_email}  />

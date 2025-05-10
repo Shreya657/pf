@@ -119,8 +119,12 @@
   }
 
   .project-card {
-    max-width: 94%;
+    max-width: 100%;
     width: 100%;
+  }
+  .project-card p{
+    font-weight: bold;
+    
   }
   .grid {
     grid-template-columns: 1fr;

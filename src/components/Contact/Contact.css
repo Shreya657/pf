@@ -1,11 +1,12 @@
 .con{
     /* background-color: rgb(2, 1, 18); */
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
 }
       .contactForm{
         margin: 1rem;
@@ -60,7 +61,7 @@
         }
         .con h2{
           font-weight: bolder;
-          font-size: 2rem;
+          font-size: 1.5rem;
           padding-left: 10px;
         }
        
